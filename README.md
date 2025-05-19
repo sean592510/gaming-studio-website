@@ -20,5 +20,3 @@ A responsive website for a fictional gaming studio, built with HTML, CSS, and Ja
 ## Tech Stack
 - HTML5, CSS3, JavaScript (ES6+)
 
-## Contributing
-Submit PRs with descriptive commits.
