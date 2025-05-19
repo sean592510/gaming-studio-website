@@ -7,27 +7,49 @@
   <link rel="stylesheet" href="gd2.css">
 </head>
 <body>
-  <header id="header">
-    <img id="header-img" src="https://images.bigbadtoystore.com/images/p/full/2024/01/0c302944-2554-4b6b-b445-f5037a9b1da0.jpg" alt="Xander Studio Logo">
-    <nav id="nav-bar">
-      <a class="nav-link" href="https://www.fromsoftware.jp/ww/"> About</a>
-      <a class="nav-link" href="https://www.fromsoftware.jp/ww/"> Games</a>
-      <a class="nav-link" href="https://www.fromsoftware.jp/ww/"> Community</a>
+  <header id="header" aria-label="Main header">
+    <img id="header-img" src="https://images.bigbadtoystore.com/images/p/full/2024/01/0c302944-2554-4b6b-b445-f5037a9b1da0.jpg" alt="Xander Studios Logo: Futuristic gaming emblem">
+    <nav id="nav-bar" aria-label="Main navigation">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#games">Games</a>
+      <a class="nav-link" href="#community">Community</a>
     </nav>
   </header>
   <main>
     <section id="about">
       <h2>About Xander Studio</h2>
-      <p>We're a passionate game development studio creating immersive worlds. Games and development services to our products and also provide services to third-party studios </p>
-    <section>
+      <p>We're a passionate game development studio creating immersive worlds. We craft games, offer development services for our products, and collaborate with third-party studios.</p>
+    </section>
     <section id="games">
       <h2>Our Games</h2>
-      <p> <img src="https://m.media-amazon.com/images/I/81HFdlL5MIL._AC_UF894,1000_QL80_.jpg"> Dark   souls </p>
+      <div class="game-gallery">
+        <div class="game-card">
+          <img src="https://shorturl.at/jJ2op" alt="Chess Game Board">
+          <h3>Chess</h3>
+          <p>A console-based chess game built in C, soon playable on the web.</p>
+          <a href="https://github.com/sean592510/Chess" class="cta">View on GitHub</a>
+        </div>
+        <div class="game-card">
+          <img src="https://m.media-amazon.com/images/I/81HFdlL5MIL._AC_UF894,1000_QL80_.jpg" alt="Dark Souls Game Cover">
+          <h3>Dark Souls <a href= "https://www.fromsoftware.jp/ww/">Creators</a></h3>
+          <p>An immersive RPG experience</p>
+          <a href="https://www.fromsoftware.jp/ww/" class="cta">Learn More</a>
+        </div>
+      </div>
     </section>
     <section id="community">
       <h2>Join Our Community</h2>
-      <p>Connect with the creators. <a href="https://www.fromsoftware.jp/ww/"> offshore subsidiary</a></p>
+      <p>Connect with creators and gamers. Join our newsletter for updates!</p>
+      <form id="contact-form">
+        <input type="email" placeholder="Enter your email" required aria-label="Email address">
+        <textarea placeholder="Your message (optional)" aria-label="Message"></textarea>
+        <button type="submit">Join</button>
+      </form>
     </section>
   </main>
+  <footer>
+    <p>© 2025 Xander Studios. All rights reserved.</p>
+  </footer>
+  <script src="gd2.js"></script>
 </body>
 </html>
