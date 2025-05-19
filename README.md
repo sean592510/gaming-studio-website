@@ -15,7 +15,7 @@ A responsive website for a fictional gaming studio, built with HTML, CSS, and Ja
 4. Deploy: `netlify deploy --prod`
 
 ## Live Demo
-[View on Netlify](
+[View on Netlify]
 
 ## Tech Stack
 - HTML5, CSS3, JavaScript (ES6+)
