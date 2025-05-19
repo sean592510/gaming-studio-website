@@ -10,14 +10,20 @@
   <header id="header" aria-label="Main header">
     <img id="header-img" src="https://images.bigbadtoystore.com/images/p/full/2024/01/0c302944-2554-4b6b-b445-f5037a9b1da0.jpg" alt="Xander Studios Logo: Futuristic gaming emblem">
     <nav id="nav-bar" aria-label="Main navigation">
+      <a class="nav-link" href="#hero">Home</a>
       <a class="nav-link" href="#about">About</a>
       <a class="nav-link" href="#games">Games</a>
       <a class="nav-link" href="#community">Community</a>
     </nav>
   </header>
   <main>
+    <section id="hero" class="hero">
+      <h2>Xander Studios</h2>
+      <p>Create Worlds, Break Limits</p>
+      <canvas id="three-canvas"></canvas>
+    </section>
     <section id="about">
-      <h2>About our Studio</h2>
+      <h2>About Xander Studio</h2>
       <p>We're a passionate game development studio creating immersive worlds. We craft games, offer development services for our products, and collaborate with third-party studios.</p>
     </section>
     <section id="games">
@@ -31,8 +37,8 @@
         </div>
         <div class="game-card">
           <img src="https://m.media-amazon.com/images/I/81HFdlL5MIL._AC_UF894,1000_QL80_.jpg" alt="Dark Souls Game Cover">
-          <h3>Dark Souls </h3>
-          <p>An immersive RPG experience</p>
+          <h3>Dark Souls<a href= "https://www.fromsoftware.jp/ww/">Creators</a></h3>
+          <p>An immersive RPG experience.</p>
           <a href="https://www.fromsoftware.jp/ww/" class="cta">Learn More</a>
         </div>
       </div>
@@ -42,7 +48,7 @@
       <p>Connect with creators and gamers. Join our newsletter for updates!</p>
       <form id="contact-form">
         <input type="email" placeholder="Enter your email" required aria-label="Email address">
-        <textarea placeholder="Your message (optional)" aria-label="Message"></textarea>
+        <textarea placeholder="comment about" aria-label="start your journey"></textarea>
         <button type="submit">Join</button>
       </form>
     </section>
@@ -50,6 +56,7 @@
   <footer>
     <p>© 2025 Xander Studios. All rights reserved.</p>
   </footer>
-  <script src="gd2.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128/build/three.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
