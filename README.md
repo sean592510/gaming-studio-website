@@ -1,2 +1,12 @@
 # gaming-studio-website
-made a game dev studio site
+gaming-studio-website/
+├── src/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── script.js
+│   │
+│   └── index.html
+├── README.md
+├── package.json
+└── .gitignore
