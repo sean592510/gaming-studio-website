@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Three.js motion graphic: Spinning 3D cube (placeholder for chess piece)
+  
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(75, 400 / 400, 0.1, 1000);
   const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('three-canvas'), alpha: true });
