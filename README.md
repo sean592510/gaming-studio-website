@@ -1,6 +1,6 @@
 # gaming-studio-website
 # Xander Studios Website
-A responsive and Interactive website for a fictional gaming studio, built with HTML, CSS, and JavaScript.
+A responsive & Interactive website for a fictional gaming studio, built with HTML, CSS, and JavaScript.
 
 ## Features
 - Fixed, responsive navbar with internal navigation
