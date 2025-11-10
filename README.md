@@ -7,6 +7,7 @@ A responsive & Interactive website for a fictional gaming studio, built with HTM
 - Game gallery showcasing projects like Chess
 - Contact form with JavaScript validation
 - Gaming-themed design with animations
+  
 
 ## Setup
 1. Clone: `git clone https://github.com/sean592510/gaming-studio-website`
