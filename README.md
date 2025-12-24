@@ -1,4 +1,4 @@
-# Faming-studio-website
+# Gaming-studio-website
 # Xander Studios Website
 A responsive & Interactive website for a fictional gaming studio, built with HTML, CSS, and JavaScript.
 
