@@ -11,9 +11,9 @@ A responsive & Interactive website for a fictional gaming studio, built with HTM
 
 ## Setup
 1. Clone: `git clone https://github.com/sean592510/gaming-studio-website`
-2. Install dependencies: `npm install` (if using Vite)
+2. Install dependencies: `npm install`
 3. Run: `npm run dev` or open `index.html`
-4. Deploy: `netlify deploy --prod`
+4. Deploy: 
 
 ## Live Demo
 [View on vercel]
