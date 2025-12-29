@@ -16,7 +16,7 @@ A responsive & Interactive website for a fictional gaming studio, built with HTM
 4. Deploy: `netlify deploy --prod`
 
 ## Live Demo
-[View on Netlify]
+[View on vercel]
 
 ## Tech Stack
 - HTML5, CSS3, JavaScript (ES6+)
