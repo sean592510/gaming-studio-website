@@ -19,5 +19,5 @@ A responsive & Interactive website for a fictional gaming studio, built with HTM
 [View on vercel]
 
 ## Tech Stack
-- HTML5, CSS3, JavaScript (ES6+)
+- HTML5, CSS3, JavaScript 
 
