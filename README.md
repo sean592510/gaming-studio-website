@@ -1,4 +1,4 @@
-# Gaming-studio-website
+# Gaming-studio-website -A landing page as a demo
 # Xander Studios Website
 A responsive & Interactive website for a fictional gaming studio, built with HTML, CSS, and JavaScript.
 
